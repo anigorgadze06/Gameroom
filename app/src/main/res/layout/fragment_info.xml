@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment"
+    android:background="@color/pastel_black"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/infobackgr">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="172dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="monospace"
+            android:text="GAMEROOM"
+            android:textColor="@color/purple"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="347dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Welcome to Gameroom, your ultimate library of video games. Got a backlog of games you swear you'll play? Tired of forgetting that one game someone recommended? Then this app is just for you, choose your video game, save it in library and star your favourite ones!"
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="348dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="The idea of Gameroom app came from letterbox, imagine this is letterbox for video games! Cozy, organized space to keep track of your chosen games. No more messy notes, forgotten recommendations or endless screenshots."
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="341dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Just you your games and a room that gets you."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
